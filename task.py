@@ -17,3 +17,57 @@
 #Определите класс character сатрибутами: "name", "health', и 'attack power*.
 #Реализуйте методы для атаки другого персонажа и получения урона.
 #Создайте подклассы "warrior" и "Mage" "Healer" "Assassin" "Tank" "Healper", которые наследуют "character и добавляют уникальные способности.
+
+
+# a = int(input("Ведите число"))    #1
+# if a % 2 == 0 :
+#     print("Четное")
+# else:
+#     print("Нечетное")
+
+
+# try:      #2
+#     a = float(input("Give me random number1"))
+#     z = input("Какую операцию нужно сделать ?")
+#     b = float(input("Give me random number2"))
+#     c = 0
+#     if z== '+' :
+#         c = a + b
+#         print(c)
+#     elif z=='-':
+#         c = a - b
+#         print(c)
+#     elif z=='*':
+#         c = a * b
+#         print(c)
+#     elif z=='/':
+#         c = a / b
+#         print(c)
+#     elif z=='**':
+#         c = a ** b
+#         print(c)
+#     else:
+#         print("Ошибка")
+# except ZeroDivisionError:
+#     print("Деление на ноль нельзя")
+# except ValueError:
+#     print("Повтори еще")
+
+
+# list = [2,6,3,1,54,9,5,77,85,426,56464,684,21]  #3
+# list.sort()
+# print(list)
+
+
+# try:       #4
+#     son = int(input("Ведите число от 1 до 100"))    #
+#     while True:
+#         a = int(input("Угадай число"))
+#         if a == son:
+#             print("Good job")
+#         elif a > son:
+#             print("Твое число больше")
+#         else:
+#             print("Твое число меньше")
+# except ValueError:
+#     print("Повторите еще раз")
